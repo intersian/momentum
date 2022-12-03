@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
 .hidden {
     display: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    background-size: : cover;
+    height: 100vh;
+}
+
+#clock {
+    color: white;
+    font-size: 150px;
+    margin-top: -40px;
+    height: 30px;
+}
+
+#weather {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+span {
+    color: white;    
 }
